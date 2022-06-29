@@ -1,0 +1,17 @@
+C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Repository\bin\Debug\net6.0\Galeri.Repository.deps.json
+C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Repository\bin\Debug\net6.0\Galeri.Repository.runtimeconfig.json
+C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Repository\bin\Debug\net6.0\Galeri.Repository.dll
+C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Repository\bin\Debug\net6.0\ref\Galeri.Repository.dll
+C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Repository\bin\Debug\net6.0\Galeri.Repository.pdb
+C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Repository\bin\Debug\net6.0\Galeri.Core.dll
+C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Repository\bin\Debug\net6.0\Galeri.Core.pdb
+C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Repository\obj\Debug\net6.0\Galeri.Repository.csproj.AssemblyReference.cache
+C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Repository\obj\Debug\net6.0\Galeri.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Repository\obj\Debug\net6.0\Galeri.Repository.AssemblyInfoInputs.cache
+C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Repository\obj\Debug\net6.0\Galeri.Repository.AssemblyInfo.cs
+C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Repository\obj\Debug\net6.0\Galeri.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Repository\obj\Debug\net6.0\Galeri.Repository.csproj.CopyComplete
+C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Repository\obj\Debug\net6.0\Galeri.Repository.dll
+C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Repository\obj\Debug\net6.0\ref\Galeri.Repository.dll
+C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Repository\obj\Debug\net6.0\Galeri.Repository.pdb
+C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Repository\obj\Debug\net6.0\Galeri.Repository.genruntimeconfig.cache

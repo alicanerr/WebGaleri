@@ -9,6 +9,6 @@ namespace Galeri.Core.UnitOfWorks
     public interface IGenericUnitOfWork
     {
         Task CommitAsync();
-        Task Commit();
+        void Commit();
     }
 }

@@ -1,7 +1,25 @@
+using Galeri.Core.Repository;
+using Galeri.Core.UnitOfWorks;
+using Galeri.Repository.AppDbContexts;
+using Galeri.Repository.Repositories;
+using Galeri.Repository.UnitOfWorks;
+using Microsoft.EntityFrameworkCore;
+using System.Reflection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IGenericUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
+builder.Services.AddDbContext<AppDbContext>(x =>
+{
+    x.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection"), option => {
+        option.MigrationsAssembly(Assembly.GetAssembly(typeof(AppDbContext)).GetName().Name);
+    });
+});
 
 var app = builder.Build();
 
