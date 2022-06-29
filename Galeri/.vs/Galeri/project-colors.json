@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1f992ba4-0bd0-4afc-a610-822551dced03": {
+      "ProjectGuid": "1f992ba4-0bd0-4afc-a610-822551dced03",
+      "DisplayName": "Galeri.Core",
+      "ColorIndex": 0
+    },
+    "c12c3e6d-eed4-469b-8a6f-a392b148cc8f": {
+      "ProjectGuid": "c12c3e6d-eed4-469b-8a6f-a392b148cc8f",
+      "DisplayName": "Galeri.Repository",
+      "ColorIndex": 1
+    },
+    "73fb8bc1-1910-449d-9f7c-17382cabd0c7": {
+      "ProjectGuid": "73fb8bc1-1910-449d-9f7c-17382cabd0c7",
+      "DisplayName": "Galeri.Service",
+      "ColorIndex": 2
+    },
+    "c58a18fa-d13b-40be-9bf2-1dbc454085f0": {
+      "ProjectGuid": "c58a18fa-d13b-40be-9bf2-1dbc454085f0",
+      "DisplayName": "Galeri.Web",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
