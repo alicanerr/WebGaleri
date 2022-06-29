@@ -20,6 +20,11 @@
       "ProjectGuid": "c58a18fa-d13b-40be-9bf2-1dbc454085f0",
       "DisplayName": "Galeri.Web",
       "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 4

@@ -1,8 +1,11 @@
 using Galeri.Core.Repository;
+using Galeri.Core.Services;
 using Galeri.Core.UnitOfWorks;
 using Galeri.Repository.AppDbContexts;
 using Galeri.Repository.Repositories;
 using Galeri.Repository.UnitOfWorks;
+using Galeri.Service.Mappings;
+using Galeri.Service.Services;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -13,6 +16,8 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<IGenericUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped(typeof(IGenericService<>), typeof(GenericServices<>));
+builder.Services.AddAutoMapper(typeof(MapProfiles));
 
 builder.Services.AddDbContext<AppDbContext>(x =>
 {
