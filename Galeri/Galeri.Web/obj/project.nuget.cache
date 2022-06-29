@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "4/gHG7wZwPeBQysgfVhKxL4kN2FGDFKDVAaqZxAZMx0uOjMZ9ZenFEk1K1ty323vCfQOorAAUDjGJllTyoCHww==",
+  "dgSpecHash": "kjaOkLhqU68lSexU5648FWa1GnM4bry3EwoHU+JzToxq+SOFseZe6vszJBC+38aLPOGeofEEAArHy8EBZ/JDSg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alican\\OneDrive\\Belgeler\\GitHub\\WebGaleri\\Galeri\\Galeri.Web\\Galeri.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Alican\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\Alican\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.6\\microsoft.entityframeworkcore.6.0.6.nupkg.sha512",

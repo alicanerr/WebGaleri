@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IorDDyT4TIpeN1lBHIa7Nvrf6FQnvcUYsLp7I1dhjT96Hd5u2mw5rZwznQqTiDx8HkyddHjBHuo3bhcCYxlw6A==",
+  "dgSpecHash": "7WVm7VKTWUrbZ5hRFN5cmP96oAqpzsXSwBo4aGPF+VwdmAQPT33NVOQ0GpDEoDj5hLLEua8s6MyycIpjMna4UQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alican\\OneDrive\\Belgeler\\GitHub\\WebGaleri\\Galeri\\Galeri.Service\\Galeri.Service.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Alican\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.6\\microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
