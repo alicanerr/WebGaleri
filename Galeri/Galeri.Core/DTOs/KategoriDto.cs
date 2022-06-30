@@ -8,6 +8,7 @@ namespace Galeri.Core.DTOs
 {
     public class KategoriDto
     {
+        public int Id { get; set; }
         public string Ad { get; set; }
     }
 }

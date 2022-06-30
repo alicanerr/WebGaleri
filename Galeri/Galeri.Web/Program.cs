@@ -19,6 +19,13 @@ builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepositor
 builder.Services.AddScoped(typeof(IGenericService<>), typeof(GenericServices<>));
 builder.Services.AddAutoMapper(typeof(MapProfiles));
 
+builder.Services.AddScoped<IAracRepository, AracRepository>();
+builder.Services.AddScoped<IAracService, AracService>();
+
+builder.Services.AddScoped<IKategoriRepository, KategoriRepository>();
+builder.Services.AddScoped<IKategoriService, KategoriService>();
+
+
 builder.Services.AddDbContext<AppDbContext>(x =>
 {
     x.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection"), option => {

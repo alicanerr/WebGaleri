@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+@model List<AraçlarDto>
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title ">ARAÇ LİSTESİ</h4>
+            <div class="table-responsive">
+                <table id="ProductsCategoryTable" class="table table-light mb-0">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>KategoriId</th>
+                            <th>Marka</th>
+                            <th>Model</th>
+                            <th>Açıklama</th>
+                            <th>Renk</th>
+                            <th>ÜretimYılı</th>
+                            <th>KmDurumu</th>
+                            <th>Fiyat</th>
+                            <th>Aksiyonlar</th>
+                           
+                          
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Id</td>
+                                <td>@item.KategoriId</td>
+                                <td>@item.Marka</td>
+                                <td>@item.Model</td>
+                                <td>@item.Açıklama</td>
+                                <td>@item.Renk</td>
+                                <td>@item.ÜretimYılı</td>
+                                <td>@item.KmDurumu</td>
+                                <td>@item.Fiyat</td>
+                                <td>
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <a class="px-2 text-primary" asp-controller="Araclar" asp-action="Update" asp-route-id="@item.Id">GÜNCELLE<i class="uil uil-pen font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a asp-controller="Araclar" asp-action="Delete" asp-route-id="@item.Id" class="px-2 text-danger">SİL</a>
+                                        </li>
+                                     
+                                    </ul>
+                                </td>
+
+                            </tr>
+                        }
+                    </tbody>
+
+                </table>
+            </div>
+            <!-- end table-responsive -->
+        </div>
+    </div>
+</div>

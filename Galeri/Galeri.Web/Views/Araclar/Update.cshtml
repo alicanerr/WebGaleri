@@ -1,0 +1,100 @@
+﻿  @{
+    ViewData["Title"] = "Update";
+}
+
+@model AraçlarDto
+
+
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <form asp-controller="Araclar" method="post" asp-action="Update" class="needs-validation" novalidate>
+                    <br>
+                    <h4 class="card-title">Araç Güncelle</h4>
+
+
+                    <div class="mb-3 row">
+
+                        <label asp-for="KategoriId" class="col-md-2 col-form-label">KATEGORİLER</label>
+                        <div class="col-md-6">
+                            <select id="kategorisave" asp-for="KategoriId" asp-items="ViewBag.kategoriler"  class="form-select" placeholder="Kategori seçiniz."></select>
+                            <div class="invalid-feedback">BOŞ BIRAKMA  !!!!</div>
+                        </div>
+                    </div>
+
+                     <div class="mb-3 row">
+
+                        <label asp-for="Marka" class="col-md-2 col-form-label">MARKA</label>
+                        <div class="col-md-6">
+                            <input id="markasave" asp-for="Marka" type="text"  class="form-control" placeholder="Marka giriniz"></input>
+                            <div class="invalid-feedback">BOŞ BIRAKMA  !!!!</div>
+                        </div>
+                    </div>
+
+
+                    <div class="mb-3 row">
+
+                        <label asp-for="Model" class="col-md-2 col-form-label">MODEL</label>
+                        <div class="col-md-6">
+                            <input id="modelsave" asp-for="Model" type="text" class="form-control" placeholder="model giriniz" required>
+                            <div class="invalid-feedback">BOŞ BIRAKMA  !!!!</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+
+                        <label asp-for="Renk" class="col-md-2 col-form-label">RENK</label>
+                        <span class="col-md-6">
+                            <input  id="renksave" asp-for="Renk" type="text" class="form-control" placeholder="renk giriniz" required>
+                            <div class="invalid-feedback">BOŞ BIRAKMA  !!!!</div>
+                        </div>
+              
+                    <div class="mb-3 row">
+
+                        <label asp-for="ÜretimYılı" class="col-md-2 col-form-label">MODEL YILI</label>
+                        <span class="col-md-6">
+                            <input id="üretimyılısave" asp-for="ÜretimYılı" type="text" class="form-control" placeholder="üretim yılı giriniz" required>
+                            <div class="invalid-feedback">BOŞ BIRAKMA  !!!!</div>
+                        </div>
+                   
+
+                      <div class="mb-3 row">
+
+                        <label asp-for="KmDurumu" class="col-md-2 col-form-label">KM </label>
+                        <span class="col-md-6">
+                            <input id="kmsave" asp-for="KmDurumu" type="text" class="form-control" placeholder="km giriniz" required>
+                            <div class="invalid-feedback">BOŞ BIRAKMA  !!!!</div>
+                 
+                    </div>
+
+                       <div class="mb-3 row">
+
+                        <label asp-for="Fiyat" class="col-md-2 col-form-label">FİYAT</label>
+                        <span class="col-md-6">
+                            <input id="fiyatsave" asp-for="Fiyat" type="text" class="form-control" placeholder="fiyat giriniz" required>
+                            <div class="invalid-feedback">BOŞ BIRAKMA  !!!!</div>
+                    
+                    </div>
+
+                           <div class="mb-3 row">
+
+                        <label asp-for="Açıklama" class="col-md-2 col-form-label">Açıklama</label>
+                        <span class="col-md-6">
+                            <input id="açıklamasave" asp-for="Açıklama" type="text" class="form-control" placeholder="Açıklama" required>
+                            <div class="invalid-feedback">BOŞ BIRAKMA  !!!!</div>
+                        </div>
+                    <button type="submit" class="btn btn-primary waves-effect waves-light w-md">GÜNCELLE</button>
+                </form>
+            </div>
+
+        </div>
+    </div> <!-- end col -->
+
+</div>
+
+
+
+
+

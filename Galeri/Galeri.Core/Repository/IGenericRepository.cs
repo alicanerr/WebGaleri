@@ -12,5 +12,6 @@ namespace Galeri.Core.Repository
         Task AddAsync(T entity);
         void Update(T entity);
         void Remove(T entity);
+        Task<T> GetByIdAsync(int Id);
     }
 }

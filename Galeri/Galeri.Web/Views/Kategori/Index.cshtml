@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+@model List<KategoriDto>
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title ">KATEGORİLER </h4>
+            <div class="table-responsive">
+                <table id="ProductsCategoryTable" class="table table-light mb-0">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Ad</th>
+                      
+                          
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Id</td>
+                                <td>@item.Ad</td>
+                      
+              
+
+                            </tr>
+                        }
+                    </tbody>
+
+                </table>
+            </div>
+            <!-- end table-responsive -->
+        </div>
+    </div>
+</div>

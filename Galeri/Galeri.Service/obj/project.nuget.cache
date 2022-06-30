@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7WVm7VKTWUrbZ5hRFN5cmP96oAqpzsXSwBo4aGPF+VwdmAQPT33NVOQ0GpDEoDj5hLLEua8s6MyycIpjMna4UQ==",
+  "dgSpecHash": "gQesygAFPp6HX1IZAUAbsDpLwy2RlWCyGV7171HXyAsORvtwTq3En77OPCFedPHbUX5BKkNdA/5VG+nf/E+FPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alican\\OneDrive\\Belgeler\\GitHub\\WebGaleri\\Galeri\\Galeri.Service\\Galeri.Service.csproj",
+  "projectFilePath": "C:\\Users\\Alican\\OneDrive\\Masaüstü\\Galeri\\Galeri.Service\\Galeri.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alican\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

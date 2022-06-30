@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "72ieXcVMFzJps7w3uXtNQ/H98S82VDv8wV/X3q/lSIRA6H1XPRKPnjIYCc0dyvPBeqSruqFxbmiGvg9ioqfd6Q==",
+  "dgSpecHash": "AIrGxfikCQeVCXwtdQ3OI/wXDfW3UsRmOwPAxezu5GZncto1yKL3yGGGmRLK9ruzpngNmn273ex6nxEah0Kg5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alican\\OneDrive\\Belgeler\\GitHub\\WebGaleri\\Galeri\\Galeri.Repository\\Galeri.Repository.csproj",
+  "projectFilePath": "C:\\Users\\Alican\\OneDrive\\Masaüstü\\Galeri\\Galeri.Repository\\Galeri.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alican\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -10,3 +10,15 @@ C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Core\obj\Debug\
 C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Core\obj\Debug\net6.0\Galeri.Core.dll
 C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Core\obj\Debug\net6.0\ref\Galeri.Core.dll
 C:\Users\Alican\OneDrive\Belgeler\GitHub\WebGaleri\Galeri\Galeri.Core\obj\Debug\net6.0\Galeri.Core.pdb
+C:\Users\Alican\OneDrive\Masaüstü\Galeri\Galeri.Core\bin\Debug\net6.0\Galeri.Core.deps.json
+C:\Users\Alican\OneDrive\Masaüstü\Galeri\Galeri.Core\bin\Debug\net6.0\Galeri.Core.dll
+C:\Users\Alican\OneDrive\Masaüstü\Galeri\Galeri.Core\bin\Debug\net6.0\ref\Galeri.Core.dll
+C:\Users\Alican\OneDrive\Masaüstü\Galeri\Galeri.Core\bin\Debug\net6.0\Galeri.Core.pdb
+C:\Users\Alican\OneDrive\Masaüstü\Galeri\Galeri.Core\obj\Debug\net6.0\Galeri.Core.csproj.AssemblyReference.cache
+C:\Users\Alican\OneDrive\Masaüstü\Galeri\Galeri.Core\obj\Debug\net6.0\Galeri.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alican\OneDrive\Masaüstü\Galeri\Galeri.Core\obj\Debug\net6.0\Galeri.Core.AssemblyInfoInputs.cache
+C:\Users\Alican\OneDrive\Masaüstü\Galeri\Galeri.Core\obj\Debug\net6.0\Galeri.Core.AssemblyInfo.cs
+C:\Users\Alican\OneDrive\Masaüstü\Galeri\Galeri.Core\obj\Debug\net6.0\Galeri.Core.csproj.CoreCompileInputs.cache
+C:\Users\Alican\OneDrive\Masaüstü\Galeri\Galeri.Core\obj\Debug\net6.0\Galeri.Core.dll
+C:\Users\Alican\OneDrive\Masaüstü\Galeri\Galeri.Core\obj\Debug\net6.0\ref\Galeri.Core.dll
+C:\Users\Alican\OneDrive\Masaüstü\Galeri\Galeri.Core\obj\Debug\net6.0\Galeri.Core.pdb

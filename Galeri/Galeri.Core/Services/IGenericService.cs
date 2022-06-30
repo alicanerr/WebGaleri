@@ -12,5 +12,7 @@ namespace Galeri.Core.Services
         Task<T> AddAsync(T entity);
         Task UpdateAsync(T entity);
         Task RemoveAsync(T entity);
+        Task<T> GetByIdAsync(int Id);
+
     }
 }

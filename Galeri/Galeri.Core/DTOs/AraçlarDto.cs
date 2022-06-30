@@ -8,6 +8,7 @@ namespace Galeri.Core.DTOs
 {
     public class AraçlarDto
     {
+        public int Id { get; set; }
         public int KategoriId { get; set; }
         public string? Marka { get; set; }
         public string? Model { get; set; }

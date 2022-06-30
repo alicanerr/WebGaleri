@@ -1,0 +1,84 @@
+.deneme1
+{
+
+
+
+    text-align:left;
+
+    font-family:"Gill Sans","Gill Sans MT",Helvetica,Arial,sans-serif;
+	font-size:30px;
+	background-color:#c4a9a9;
+	color:#410506;
+	width:15%;
+}
+.cizgibody
+ {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+ }
+.cizgi1
+{
+    width: 11%;
+    background: #7622da;
+	height: 8px;
+}
+.cizgi2
+{
+	width: 18%;
+    background: #47c6eb;
+	height: 8px;
+}
+.cizgi3
+{
+	width: 31%;
+    background: #ed5f1f;
+	height: 8px;
+}
+.cizgi4
+{
+	width: 15%;
+    background: #f59f28;
+	height: 8px;
+}
+.cizgi5
+{
+	width: 13%;
+    background: #6b1e5b;
+	height: 8px;
+}
+.cizgi6
+{
+	width: 12%;
+    background: #45b794;
+	height: 8px;
+}
+.marka
+{
+	color: #FF6000;
+	font-family:evenodd;
+	font-size: 20px;
+}
+.menuitems1
+{
+
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 56px;
+    cursor: default;
+	float: left;
+}
+
+.menuitems2
+{
+	position: relative;
+    color: #646464;
+	float: left;
+	margin-left: 80px;
+}

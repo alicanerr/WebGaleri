@@ -1,8 +1,9 @@
-﻿using Galeri.Web.Models;
+﻿
+using Galeri.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace Galeri.Web.Controllers
+namespace Gorevcim.WEB.Controllers
 {
     public class HomeController : Controller
     {

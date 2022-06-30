@@ -25,9 +25,16 @@ namespace Galeri.Repository.Repositories
             await _dbSet.AddAsync(entity);
         }
 
+
+
         public IQueryable<T> GetAll()
         {
             return _dbSet.AsNoTracking().AsQueryable();
+        }
+
+        public async Task<T> GetByIdAsync(int Id)
+        {
+            return await _dbSet.FindAsync(Id);
         }
 
         public void Remove(T entity)
@@ -39,5 +46,7 @@ namespace Galeri.Repository.Repositories
         {
             _dbSet.Update(entity);
         }
+
+      
     }
 }

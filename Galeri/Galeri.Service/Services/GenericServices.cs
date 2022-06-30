@@ -33,6 +33,12 @@ namespace Galeri.Service.Services
             return await _repository.GetAll().ToListAsync();
         }
 
+        public async Task<T> GetByIdAsync(int Id)
+        {
+            var arac = await _repository.GetByIdAsync(Id);
+            return arac;
+        }
+
         public async Task RemoveAsync(T entity)
         {
             _repository.Remove(entity);
@@ -44,5 +50,7 @@ namespace Galeri.Service.Services
             _repository.Update(entity);
             await _unitofWork.CommitAsync();
         }
+
+   
     }
 }
